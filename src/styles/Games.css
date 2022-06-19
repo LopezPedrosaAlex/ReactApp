@@ -1,0 +1,12 @@
+.gameImg {
+    display: flex;
+    margin: auto;
+    height: 20em;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.gameTitle {
+    font-size: large;
+    margin: 5px 5px 5px 5px;
+}
