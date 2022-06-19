@@ -2,6 +2,7 @@ import { useState } from "react";
 import Games from "./components/Games";
 import DetailGames from "./components/DetailGames";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./styles/App.css";
 
 function App() {
   const [count, setCount] = useState(0);

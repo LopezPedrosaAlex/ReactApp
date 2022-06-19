@@ -1,0 +1,30 @@
+
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+
+.DetailTitle {
+    padding: 1em 0  0;
+    color: white;
+    font-family: 'Bungee';
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: large;
+    transition: transform .2s;
+}
+
+.DetailText {
+    text-align: justify;
+    padding: 1em 1em 1em 1em;
+    font-family: 'Passion One';
+    color: white;
+}
+
+.DetailImage {
+    height: 80%;
+    width: 80%;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    margin: auto;
+}

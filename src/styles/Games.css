@@ -1,12 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+
 .gameImg {
+    padding-top: 3em;
     display: flex;
     margin: auto;
     height: 20em;
-    width: 30%;
+    width: 50%;
     border-radius: 5px;
 }
 
 .gameTitle {
+    padding-top: 1em;
+    color: white;
+    font-family: 'Bungee';
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
     font-size: large;
-    margin: 5px 5px 5px 5px;
+    transition: transform .2s;
+    
+}
+
+.gameTitle:hover{
+    transform: scale(1.1);
+}
+
+.gameBlock {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getDetailGame } from "./Api";
+import "../styles/DetailGames.css"
 
 const DetailGames = () => {
     const params = useParams();
@@ -16,9 +17,9 @@ const DetailGames = () => {
             {detailGame !== null ?
 
                 <div>
-                    <h1 className="gameTitle">{detailGame.name}</h1>
-                    <p>{detailGame.description_raw}</p>
-                    <img src={detailGame.background_image_additional}></img>
+                    <h1 className="DetailTitle">{detailGame.name}</h1>
+                    <p className="DetailText">{detailGame.description_raw}</p>
+                    <img className="DetailImage" src={detailGame.background_image_additional}></img>
                 </div>
 
                 : ""}

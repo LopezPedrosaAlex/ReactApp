@@ -13,13 +13,15 @@ const Games = () => {
     <>
       {games != null
         ? games.map((game) => (
+          <div className="gameBlock">
             <div key={game.id}>
               <a className="gameTitle" href={`/games/${game.id}`}>
                 {game.slug}
               </a>
               <img className="gameImg" src={game.background_image}></img>
             </div>
-          ))
+          </div>
+        ))
         : "There is no data"}
     </>
   );
